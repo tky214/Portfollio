@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(214, 228, 230);
+    margin: 0;
+}
+
+.box {
+position: relative;
+width: 100%;
+height: 500px;
+overflow: hidden;
+}
+
+.header-img {
+    width: 100%;
+    /* height: 1500px; */
+    object-fit: cover;
+}
+.box p {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    font-size: 300%;
+    color: rgb(245, 245, 245);
+    text-shadow:
+    1px 1px #000,
+    -1px 1px #000,
+    -1px -1px #000,
+    1px -1px #000,
+    1px 0px #000,
+    0px 1px #000,
+    -1px 0px #000,
+    0px -1px #000;
+}
+
+ul {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+li {
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+td {
+    font-size: 20px;
+}
+
+.skill-desk {
+    flex-basis: calc(100% - 75px - 30px);
+    text-align: center;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    
+    text-align: center;
+}
+
+section {
+    width: 800px;
+    margin:0 auto;
+}
+/* プロフィール */
+.shima{
+    padding: 100px 0;
+    background-size: cover;
+}
+
+.header-block {
+    margin-bottom: 50px;
+}
+
+h2.font {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.card-wrapper {
+    padding: 20px 0;
+     display: flex; 
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between; 
+    width: 800px;
+    margin: auto;
+}
+
+#Works .card {
+    margin-bottom: 50px;
+    width: 32%;
+
+}
+
+.card {
+    position: relative;
+    
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: aquamarine;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.back{
+    background-color:aquamarine;
+}
+
+figure {
+    margin: 0 0 1rem;
+}
+
+.card-image { 
+    display: block;
+    margin-bottom: 8px;
+    height: 245px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+img, video, object {
+    max-width: 100%;
+    border: none;
+}
+
+figcaption.card-caption { 
+    text-align: center;
+}
+
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card-caption-info {
+    font-size: 12px;
+}
+
+.card-caption-info {
+    font-size: 12px;
+}
+
+a {
+    color: #007bff;
+    text-decoration:none;
+    background-color: transparent;
+}
+
+.heading-block {
+    margin-bottom: 50px;
+}
+
+.entry.nobottomborder.nobottompadding.clearfix {
+    margin-right: 30px;
+}
+
+.col_three_fourth.col_last {
+    color: white;
+    display: flex;
+}
+
+.col_one_third {
+    padding-left: 20px;
+}
